@@ -19,7 +19,7 @@ export default function CalendarPage() {
     const [expanded, setExpanded] = useState(false); // Sidebar state
     const pathname = usePathname(); // Pathname'i almak için usePathname kullanıldı
     const { push } = useRouter(); // useRouter'dan push fonksiyonunu al
-  
+    // Sidebar genişliği: genişletildiğinde 250px, daraltıldığında 95px olacak
     const sidebarWidth = expanded ? '200px' : '45px';
     
     return (

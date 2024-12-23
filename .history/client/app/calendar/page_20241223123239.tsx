@@ -1,6 +1,7 @@
 "use client"
 import Header from "@/components/shared/client/Header/header";
 import Sidebar, { SidebarContext, SidebarItem } from "@/components/shared/client/SideBarMenu/sideBarMenu";
+// import NomailPaleSvg from '../../components/shared/svg/nomailPaleSvg';
 import NewMail from '../../components/shared/svg/newMail';
 import InboxSvg from '../../components/shared/svg/InboxSvg';
 import CalendarSvg from '../../components/shared/svg/calendarSvg';
@@ -19,7 +20,7 @@ export default function CalendarPage() {
     const [expanded, setExpanded] = useState(false); // Sidebar state
     const pathname = usePathname(); // Pathname'i almak için usePathname kullanıldı
     const { push } = useRouter(); // useRouter'dan push fonksiyonunu al
-  
+    // Sidebar genişliği: genişletildiğinde 250px, daraltıldığında 95px olacak
     const sidebarWidth = expanded ? '200px' : '45px';
     
     return (
