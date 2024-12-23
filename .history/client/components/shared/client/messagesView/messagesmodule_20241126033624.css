@@ -1,0 +1,18 @@
+.scrollable-content {
+    overflow-y: auto; /* Sadece dikey kaydırma */
+    height: calc(100vh - 14 * 4px - 40px); /* Header ve footer dışında kalan alan */
+    padding-bottom: 16px;
+}
+
+.scrollable-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.scrollable-content:hover::-webkit-scrollbar-thumb {
+    background: #888;
+}

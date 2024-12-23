@@ -1,0 +1,9 @@
+.scrollable-container {
+    height: calc(100vh - 56px); /* Header boyutunu çıkardık */
+    overflow-y: hidden; /* Normalde scroll kapalı */
+    transition: overflow-y 0.3s ease-in-out; /* Yumuşak geçiş */
+}
+
+.scrollable-container:hover {
+    overflow-y: auto; /* Hover olunca scroll aktif */
+}

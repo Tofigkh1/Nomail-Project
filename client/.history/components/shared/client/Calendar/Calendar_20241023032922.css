@@ -1,0 +1,260 @@
+.calendar-container {
+    width: 94%;
+    background-color: #f8f8f8;
+    color: black;
+    margin: 0 auto;
+    margin-left: 80px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+  }
+  
+  .calendar-header button {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: 1px solid #f2f2f7;
+  height: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-header span {
+    font-weight: bold;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+  }
+  
+  .calendar-day-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #79747e;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .calendar-day {
+    background-color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 12px;
+    height: 156px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fcfcfc;
+  }
+  .calendar-day:hover {
+    background-color: #e5e5ea;
+  }
+  
+  .calendar-day.today {
+    border: 1px solid #00987f;
+    background-color: #00987f3d;
+  }
+  
+  .calendar-day.empty {
+    background-color: transparent;
+    cursor: default;
+  }
+  
+  .calendar-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .popup-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+  }
+  
+  .discard-btn,
+  .save-btn {
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .popup-external {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .save-btn {
+    background-color: #00987f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 7.5px 8px;
+  }
+  
+  .discard-btn {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: black;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .firstContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  .secondContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  .thirdContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  .inputContainers {
+    display: flex;
+    gap: 10px;
+  }
+  .dateInput {
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+  }
+  .timeInput {
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+  }
+  .textAreaInput {
+      padding: 5px;
+      width: 100%;
+  }
+  .textAreaInput:focus {
+      outline: none;
+      border-bottom: 2px solid #00987f;
+  }
+  .textInput {
+      padding: 5px;
+  }
+  .textInput:focus {
+      outline: none;
+      border-bottom: 2px solid #00987f;
+  }
+  .event-list {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: end;
+  }
+  .event-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  .goldenText {
+      color: #FFC531;
+  }
+  
+  
+  /* Toggle düğmesi (switch) stil */
+  .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 24px;
+    }
+    
+    /* Gizlenen varsayılan checkbox */
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    /* Slider stil (toggle kısmı) */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: 0.4s;
+      border-radius: 34px;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 4px;
+      bottom: 2px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+    
+    /* Checkbox checked olunca stil */
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    
+    /* Toggle yuvarlağının sağa geçmesi */
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+    
+    /* Slider yuvarlatılmış köşeler */
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+        border-radius:50%;
+}

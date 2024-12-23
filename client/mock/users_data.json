@@ -1,0 +1,760 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "lastMessage": "See you later!",
+    "lastSeen": "10:30 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "john.doe@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/09f/fff.png",
+      "https://via.placeholder.com/300/0ff/000.png"
+    ],
+    "sentLinks": [
+      "https://www.example.com",
+      "https://www.wikipedia.org"
+    ],
+    "sentDocuments": [
+      "resume.pdf",
+      "project-docs.zip"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "lastMessage": "Good morning!",
+    "lastSeen": "8:15 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "jane.smith@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/ff9/fff.png",
+      "https://via.placeholder.com/300/fff/999.png"
+    ],
+    "sentLinks": [
+      "https://www.github.com",
+      "https://www.stackoverflow.com"
+    ],
+    "sentDocuments": [
+      "report.pdf",
+      "presentation.pptx"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 3,
+    "name": "Mike Johnson",
+    "lastMessage": "Talk soon!",
+    "lastSeen": "6:45 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "mike.johnson@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/aaa/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.nytimes.com",
+      "https://www.bbc.com"
+    ],
+    "sentDocuments": [
+      "mike-portfolio.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "lastMessage": "Thanks for the help!",
+    "lastSeen": "3:25 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "emily.davis@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/222/fff.png",
+      "https://via.placeholder.com/300/0f0/000.png"
+    ],
+    "sentLinks": [
+      "https://www.medium.com"
+    ],
+    "sentDocuments": [
+      "project-specs.pdf",
+      "contract.docx"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 5,
+    "name": "David Lee",
+    "lastMessage": "Let me know.",
+    "lastSeen": "5:00 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "david.lee@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/ff0/000.png"
+    ],
+    "sentLinks": [
+      "https://www.linkedin.com"
+    ],
+    "sentDocuments": [
+      "meeting-minutes.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 6,
+    "name": "Anna Wilson",
+    "lastMessage": "That sounds great!",
+    "lastSeen": "1:30 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "anna.wilson@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/888/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.facebook.com"
+    ],
+    "sentDocuments": [
+      "contract.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 7,
+    "name": "Paul Brown",
+    "lastMessage": "Let's catch up later!",
+    "lastSeen": "3:45 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "paul.brown@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/009/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.twitch.tv"
+    ],
+    "sentDocuments": [
+      "tutorial.docx"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 8,
+    "name": "Lisa Green",
+    "lastMessage": "I'll send it to you soon.",
+    "lastSeen": "9:15 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "lisa.green@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/aaa/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.instagram.com"
+    ],
+    "sentDocuments": [
+      "photos.zip"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 9,
+    "name": "Kevin White",
+    "lastMessage": "Thanks! Appreciate it.",
+    "lastSeen": "10:00 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "kevin.white@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/000/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.twitter.com"
+    ],
+    "sentDocuments": [
+      "summary.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 10,
+    "name": "John Doe",
+    "lastMessage": "See you later!",
+    "lastSeen": "10:30 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "john.doe@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/09f/fff.png",
+      "https://via.placeholder.com/300/0ff/000.png"
+    ],
+    "sentLinks": [
+      "https://www.example.com",
+      "https://www.wikipedia.org"
+    ],
+    "sentDocuments": [
+      "resume.pdf",
+      "project-docs.zip"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 11,
+    "name": "Jane Smith",
+    "lastMessage": "Good morning!",
+    "lastSeen": "8:15 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "jane.smith@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/ff9/fff.png",
+      "https://via.placeholder.com/300/fff/999.png"
+    ],
+    "sentLinks": [
+      "https://www.github.com",
+      "https://www.stackoverflow.com"
+    ],
+    "sentDocuments": [
+      "report.pdf",
+      "presentation.pptx"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 12,
+    "name": "Mike Johnson",
+    "lastMessage": "Talk soon!",
+    "lastSeen": "6:45 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "mike.johnson@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/aaa/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.nytimes.com",
+      "https://www.bbc.com"
+    ],
+    "sentDocuments": [
+      "mike-portfolio.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 13,
+    "name": "Emily Davis",
+    "lastMessage": "Thanks for the help!",
+    "lastSeen": "3:25 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "emily.davis@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/222/fff.png",
+      "https://via.placeholder.com/300/0f0/000.png"
+    ],
+    "sentLinks": [
+      "https://www.medium.com"
+    ],
+    "sentDocuments": [
+      "project-specs.pdf",
+      "contract.docx"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 14,
+    "name": "David Lee",
+    "lastMessage": "Let me know.",
+    "lastSeen": "5:00 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "david.lee@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/ff0/000.png"
+    ],
+    "sentLinks": [
+      "https://www.linkedin.com"
+    ],
+    "sentDocuments": [
+      "meeting-minutes.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 15,
+    "name": "Anna Wilson",
+    "lastMessage": "That sounds great!",
+    "lastSeen": "1:30 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "anna.wilson@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/888/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.facebook.com"
+    ],
+    "sentDocuments": [
+      "contract.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 16,
+    "name": "Paul Brown",
+    "lastMessage": "Let's catch up later!",
+    "lastSeen": "3:45 PM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "paul.brown@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/009/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.twitch.tv"
+    ],
+    "sentDocuments": [
+      "tutorial.docx"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 17,
+    "name": "Lisa Green",
+    "lastMessage": "I'll send it to you soon.",
+    "lastSeen": "9:15 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "lisa.green@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/aaa/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.instagram.com"
+    ],
+    "sentDocuments": [
+      "photos.zip"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 18,
+    "name": "Kevin White",
+    "lastMessage": "Thanks! Appreciate it.",
+    "lastSeen": "10:00 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "kevin.white@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/000/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.twitter.com"
+    ],
+    "sentDocuments": [
+      "summary.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 19,
+    "name": "Kevin White",
+    "lastMessage": "Thanks! Appreciate it.",
+    "lastSeen": "10:00 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "kevin.white@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/000/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.twitter.com"
+    ],
+    "sentDocuments": [
+      "summary.pdf"
+    ],
+    "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  },
+  {
+    "id": 20,
+    "name": "Kevin White",
+    "lastMessage": "Thanks! Appreciate it.",
+    "lastSeen": "10:00 AM",
+    "profilePicture": "https://via.placeholder.com/150",
+    "email": "kevin.white@example.com",
+    "sentImages": [
+      "https://via.placeholder.com/300/000/fff.png"
+    ],
+    "sentLinks": [
+      "https://www.twitter.com"
+    ],
+    "sentDocuments": [
+      "summary.pdf"
+    ],
+   "chats": [
+    {
+      "id": 1,
+      "message": "Hey, are you there?",
+      "sentByMe": true,
+      "seen": true
+    },
+    {
+      "id": 2,
+      "message": "Yes, I'm here!",
+      "sentByMe": false,
+      "seen": true
+    },
+    {
+      "id": 3,
+      "message": "Can you check the documents I sent?",
+      "sentByMe": true,
+      "seen": false
+    }
+  ]
+  }
+]
